@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useNavigate } from "react-router";
+import { Link, useNavigate } from "react-router-dom";
 import { motion } from "motion/react";
 import { Eye, EyeOff, ArrowRight, Shield, Lock, Fingerprint, Loader2 } from "lucide-react";
 import { GridBackground } from "../components/GridBackground";
