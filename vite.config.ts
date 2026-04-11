@@ -21,6 +21,12 @@ export default defineConfig({
   },
   preview: {
     host: true,
+    allowedHosts: [
+      'starthub-3wj2.onrender.com',
+      '*.onrender.com',
+      'localhost',
+      '127.0.0.1',
+    ],
   },
   build: {
     outDir: 'dist',
