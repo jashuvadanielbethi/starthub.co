@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { LogOut } from "lucide-react";
 import { type ComponentType } from "react";
 

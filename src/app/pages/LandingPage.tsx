@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, type ReactNode } from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { supabase } from "../../lib/supabase";
 import { motion, useScroll, useTransform, useInView, useMotionValue, useSpring } from "motion/react";
 import { GlassCard } from "../components/GlassCard";
